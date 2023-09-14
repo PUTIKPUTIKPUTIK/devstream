@@ -4,12 +4,12 @@ namespace Task1Design.Bicycles;
 
 public class Bicycle : Vehicle
 {
-    public Bicycle(string name, int weight, string type, int maxSpeed = 50)
+    public Bicycle()
     {
-        Name = name;
-        Weight = weight;
-        Type = type;
-        MaxSpeed = maxSpeed;
+        Name = "Audi";
+        Weight = 2000;
+        Type = "gornik";
+        MaxSpeed = 300;
     }
 
     public string Type { get; protected set; }

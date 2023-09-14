@@ -7,9 +7,9 @@ namespace Task1Design
     {
         static void Main(string[] args)
         {
-            var car = new Car("BMW", 2500);
-            var carWithMaxSpeed = new Car("Audi", 3000, 300);
-            var bicycle = new Bicycle("Aist", 20, "gornik");
+            var car = new Car();
+            var carWithMaxSpeed = new Car();
+            var bicycle = new Bicycle();
             
             Console.WriteLine($"{car.Name}|{car.Weight}|{car.MaxSpeed}");
             Console.WriteLine($"{carWithMaxSpeed.Name}|{carWithMaxSpeed.Weight}|{carWithMaxSpeed.MaxSpeed}");
