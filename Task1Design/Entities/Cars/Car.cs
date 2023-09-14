@@ -4,10 +4,10 @@ namespace Task1Design.Cars;
 
 public class Car : Vehicle
 {
-    public Car(string name, int weight, int maxSpeed = 200)
+    public Car()
     {
-        Name = name;
-        Weight = weight;
-        MaxSpeed = maxSpeed;
+        Name = "Audi";
+        Weight = 2000;
+        MaxSpeed = 300;
     }
 }
